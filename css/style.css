@@ -1,0 +1,18 @@
+:root{
+    
+    --blanco: #FFFFFF;
+    --negro: #000000;
+    --azulprincipal: #007EA7;
+    --trastes: #00A8E8;
+    --azuloscuro: #003459;
+    --footer: #D3F5FD;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Krub', sans-serif;
+}
