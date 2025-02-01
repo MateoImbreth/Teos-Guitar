@@ -21,14 +21,24 @@ body{
     font-family: 'Krub', sans-serif;
 }
 
+.titulo{
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
 .contenedor{
-    max-width: 100rem;
+    max-width: 80rem;
     margin: 0 auto;
 }
 .navegacion-principal{
     display: flex;
     justify-content:space-around;
     background-color: var(--azulprincipal);
+    border-bottom-left-radius: 6% 100%;
+    border-top-right-radius: 6% 100%;
+    margin-bottom: 5rem;
 }
 
 .navegacion-principal a{
@@ -36,4 +46,5 @@ body{
     font-weight: bold;
     text-decoration: none;
     text-align: center;
+    padding: 1rem;
 }
