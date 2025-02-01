@@ -16,3 +16,20 @@ body{
     font-size: 16px;
     font-family: 'Krub', sans-serif;
 }
+
+.contenedor{
+    max-width: 100rem;
+    margin: 0 auto;
+}
+.navegacion-principal{
+    display: flex;
+    justify-content:space-around;
+    background-color: var(--azulprincipal);
+}
+
+.navegacion-principal a{
+    color: var(--blanco);
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
